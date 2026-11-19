@@ -1,0 +1,56 @@
+:root {
+	--save-life-red: #b42332;
+	--save-life-soft: #fff3f4;
+}
+
+body {
+	background: #fbfbfc;
+	color: #22252a;
+}
+
+.hero {
+	background: linear-gradient(120deg, var(--save-life-soft), #fff 70%);
+}
+
+.narrow-page {
+	max-width: 720px;
+}
+
+.stat-card,
+.empty-state {
+	background: #fff;
+	border: 1px solid #f0d9dc;
+	border-radius: 1rem;
+	padding: 1.5rem;
+}
+
+.stat-card strong {
+	color: var(--save-life-red);
+	display: block;
+	font-size: 2rem;
+}
+
+.stat-card span {
+	color: #62666d;
+}
+
+.field-error {
+	color: var(--save-life-red);
+	font-size: 0.875rem;
+	margin-top: 0.25rem;
+}
+
+.btn-danger {
+	background-color: var(--save-life-red);
+	border-color: var(--save-life-red);
+}
+
+.btn-outline-danger {
+	color: var(--save-life-red);
+	border-color: var(--save-life-red);
+}
+
+.btn-outline-danger:hover {
+	background-color: var(--save-life-red);
+	border-color: var(--save-life-red);
+}
